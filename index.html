@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h1>My Portfolio</h1>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Gayatri a web developer with a passion for creating visually appealing and functional websites.I graduated from Amrita University,Coimbatore in 2022 with a degree in Electronic and Communication Engineering. My interests are in Front End Engineering and I love to create beautiful performant products with delightful user experiences.I previously worked at Grab where I led the Grab for Work project. Grab for Work was a service for companies to make corporate transportation expenses convenient. Companies can create employee groups, set ride policies and share corporate payment methods with their employees. I built the project with another engineer over the period of 3 months on a React/Redux and Golang stack."I'm interested in the Front End Engineer role at Lyft because I like working in this ridesharing space and creating products to improve the lives of users.
+            </p>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="card">
+                <img class="img" src="organdonar.png" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>It is a project that is dealing with  organ donation and transplantation.Take a minute to help those in need. Sign up as an organ, eye, and tissue donor. Every registration counts. Sign up.On March 22, 2023, HRSA launched the Organ Procurement and Transplantation Network (OPTN) Modernization Initiative to better serve the needs of patients and families. The Initiative will strengthen accountability, equity, and performance of the organ donation and transplantation system through a focus on five key areas: technology; data transparency; governance; operations; and quality improvement and innovation. As a first step in the Modernization Initiative, HRSA launched a new dashboard and Public Use File (PUF) to enhance transparency in the national organ donation, procurement, and transplantation system. View the dashboard and accompanying PUF for demographic information about organ donors, waitlist candidates/registrants, and transplant recipients, as well as organ-specific data such as procured organ transplantation rates and transplant outcomes for several solid organ types. </p>
+            </div>
+            <div class="card">
+                <img class="img" src="iplschedule.png" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>The Indian Premier League (IPL) is back in 2024; promising cricket fans are waiting to watch this T20 cricket. IPL has become more than just a sporting event; it’s a festival of cricket that transcends boundaries, bringing together talent from various nations and captivating audiences with its matches.This comprehensive article provides a detailed breakdown of the IPL 2024 Schedule or Time Table, including match dates, competing teams, and fixtures. We aim to offer a clear and informative overview of the tournament, ensuring readers have all the essential information at their fingertips.</p>
+            </div>
+            <div class="card">
+                <img class="img" src="box.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A background image can be specified for almost any HTML element. Background Image on a HTML element.So i created a website for image and its description.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="/submit_form" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
